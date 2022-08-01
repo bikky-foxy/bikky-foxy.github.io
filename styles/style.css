@@ -1,0 +1,299 @@
+	/* Google free fonts, chosen for good Unicode coverage */
+
+        @font-face {
+            font-family: 'Tinos';
+            src: local('Tinos-Bold'), local('Tinos Bold'), url('../../fonts/Tinos/Tinos-Bold.woff');
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'Tinos';
+            src: local('Tinos'), url('../../fonts/Tinos/Tinos-Regular.woff');
+            font-weight: normal;
+        }
+
+        @font-face {
+            font-family: 'Tinos';
+            src: local('Tinos-BoldItalic'), local('Tinos Bold Italic'), url('../../fonts/Tinos/Tinos-BoldItalic.woff');
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Tinos';
+            src: local('Tinos-Italic'), local('Tinos Italic'), url('../../fonts/Tinos/Tinos-Italic.woff');
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Arimo';
+            src: local('Arimo-Bold'), local('Arimo Bold'), url('../../fonts/Arimo/Arimo-Bold.woff');
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'Arimo';
+            src: local('Arimo'), url('../../fonts/Arimo/Arimo-Regular.woff');
+            font-weight: normal;
+        }
+
+        @font-face {
+            font-family: 'Arimo';
+            src: local('Arimo Bold Italic'), local('Arimo-BoldItalic'), url('../../fonts/Arimo/Arimo-BoldItalic.woff');
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Arimo';
+            src: local('Arimo Italic'), local('Arimo Italic'), url('../../fonts/Arimo/Arimo-Italic.woff');
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            src: local('Source Code Pro Semibold'), local('SourceCodePro-Semibold'), url('../../fonts/Source_Code_Pro/SourceCodePro-Semibold.woff');
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            src: src: local('Source Code Pro Medium'), local('SourceCodePro-Medium'), url('../../fonts/Source Code Pro/SourceCodePro-Medium.woff');
+            font-weight: normal;
+        }
+
+	body {
+            font-family: 'Tinos', Georgia, Times, serif;
+            background-color: #F4F8FF;
+            max-width: 900px;
+            font-size: 19.5px;
+            line-height: 120%;
+            margin: 0 auto 0 auto
+        }
+
+        a:visited, a:link {
+            color: #0066D5;
+            text-decoration: none
+        }
+
+        a:hover {
+            color: #0066D5;
+            text-decoration: underline
+        }
+
+        td {
+            text-align: left;
+        }
+
+        td.header {
+            text-align: left;
+            font-family:  'Arimo', Verdana, sans-serif;
+            font-size: 21px
+        }
+
+        td.topics {
+            text-align: left;
+            color: #002395;
+            font-family:  'Arimo', Verdana, sans-serif;
+            font-size: 16px;
+            line-height: 18px
+        }
+
+        td.date {
+            text-align: left;
+            margin-top: 0;
+            font-family:  'Arimo', Verdana, sans-serif;
+            font-weight: normal;
+            font-size: small;
+            line-height: 140%
+        }
+
+        tr.blogentry {
+            margin: 100px
+        }
+        /* just so we can say tr class="blogentry" to mark blog entries */
+
+        p {
+            text-align: left;
+            max-width: 600px;
+        }
+        /* Normal paragraphs do not stretch more than 600 px wide, for legibility.  */
+
+        p.red {
+            text-align: left;
+            color: #002080;
+            max-width: 600px;
+        }
+
+        span.red {
+            color: #002080
+        }
+        /* "red" is now actually bluish */
+
+        p.small {
+            font-size: 18px;
+            line-height: 20px;
+        }
+        
+        p.smallred {
+            font-size: 18px;
+            line-height: 20px;
+            text-align: left;
+            color: #002080;
+            max-width: 600px;
+        }
+		
+		p.smallerred {
+            font-size: 16px;
+            line-height: 18px;
+            text-align: left;
+            color: #002080;
+            max-width: 600px;
+        }
+
+        p.tinycentered {
+            max-width: 100%; 
+            margin: 0; 
+            text-align: center; 
+            font-family:  'Arimo', sans-serif; 
+            font-size: 15px; 
+            line-height:18px
+        }
+
+        p.listing {
+            text-align: left;
+            font-family: 'Source Code Pro', monospace;
+	    font-size: 90%;
+	    line-height: 120%;
+        }
+
+        span.listing { 
+            font-family: 'Source Code Pro', monospace;
+			font-size: 90%;
+			line-height: 120%;
+        }
+
+		tt { 
+            font-family: 'Source Code Pro', monospace;
+			font-size: 90%;
+			line-height: 120%;
+        }
+		
+		pre { 
+            font-family: 'Source Code Pro', monospace;
+			font-size: 90%;
+			line-height: 120%;
+        }
+	
+        p.remark {
+            text-align: left;
+            font-family:  'Arimo', Verdana, sans-serif;
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: bold
+        }
+        /* p.remark is for quoted material, etc. */
+
+        p.bigtitle {
+            text-align: center;
+            padding: 0.25em;
+            max-width: 100%;
+            margin: 0;
+            color: #002395;
+            font-family:  'Arimo', Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 36px
+        }
+
+        p.title {
+            text-align: left;
+            margin: 0;
+            color: #002395;
+            font-family:  'Arimo', Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 22px
+        }
+
+        p.permalink {
+            text-align: left;
+            color: #002395;
+            font-family:  'Arimo', Verdana, sans-serif;
+            font-size: 14px;
+            line-height: 120%
+        }
+
+
+        li {
+            margin-bottom: 1.2em;
+            max-width: 550px;
+            text-align: left;
+            vertical-align: text-top
+        }
+        /* Like paragraphs, these are in a 600-pixel-wide column */
+
+        li.red {
+            color: #002395;
+            margin-bottom: 1.2em;
+            max-width: 550px;
+            text-align: left;
+            vertical-align: text-top
+        }
+
+        /* For use with http://www.manoli.net/csharpformat/ */
+
+        .csharpcode, .csharpcode pre {
+            /*font-size: small;*/
+            font-weight: bold;
+            color: black;
+            font-family: 'Source Code Pro', monospace;
+            background-color: #ffffff;
+            /*white-space: pre;*/
+        }
+
+        .csharpcode pre {
+            margin: 0em;
+        }
+
+        .csharpcode .rem {
+            color: #008000;
+        }
+
+        .csharpcode .kwrd {
+            color: #0000ff;
+        }
+
+        .csharpcode .str {
+            color: #a31515;
+        }
+
+        .csharpcode .op {
+            color: #0000c0;
+        }
+
+        .csharpcode .preproc {
+            color: #cc6633;
+        }
+
+        .csharpcode .asp {
+            background-color: #ffff00;
+        }
+
+        .csharpcode .html {
+            color: #800000;
+        }
+
+        .csharpcode .attr {
+            color: #ff0000;
+        }
+
+        .csharpcode .alt {
+            background-color: #f4f4f4;
+            width: 100%;
+            margin: 0em;
+        }
+
+        .csharpcode .lnum {
+            color: #606060;
+        }			
