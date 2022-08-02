@@ -1,29 +1,41 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Daily Notebook</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display" rel="stylesheet" type="text/css">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Bithiah's Blog</h1>
-  
-    <p>This is my blog where I will be discussing random things! Hope you enjoy!</p>   
+ <div class="header">
+  <h2>Blog Name</h2>
+</div>
 
-    <ul> <!-- q/a list -->
-      <li>Who are you? Well I am Bithiah a.k.a vintagemind. </li>
-      <li>Why did you choose the username <i>vintagemind </i>? Imagine being stuck in a teen body but have the mind of someone from the 1940s. Creepy...I know.</li>
-      <li>What do you do? Well, I do have an actual <a href="https://vintagemind.github.io/"> portfolio</a> so if you want to know what I do, check it out! It is certainly much more "professional" as that is the purpose of a portfolio.</li>
-      <li>What will you be posting about? Lots of things: economics, school, life (in general), old Hollywood, and technology.    
-    </ul>
-    <p>-------------------------------------------------------------------</p>
-     <h1>Posts</h1>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
 
-    <h2>Contributing to Open Source - 22 Jul 2022</h2>
-
-    <p>As an NDA's SUMO, Social, and KB contributor at Mozilla, I have learned heaps! And I mean it. I believe open source software is certainly the best and the open source community is awesome!</p>
-    <p>This week, I have decided to also contribute to OpenLibrary and Discourse as I use Internet Archive a lot watching old Hollywood films and meta Discourse is such a nice community and the company's ethics are just great.</p>
-    <p>I was a librarian in fact at my local primary school library (past student) which had around 15,000 books so contributing to OpenLibrary is rather meaningful to me. Also literature and history are one of my favourite subjects.</p>
-    <p>And most importantly, you learn while contributing and it also gives you experience. I can certainly say I am learning everyday by contributing to various open source projects.</p>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
